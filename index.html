@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Alex Drevel — Press Kit</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon_light.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="img/favicon_dark.png" media="(prefers-color-scheme: dark)">
+    <!-- html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <button class="pdf-btn" onclick="downloadPDF()" id="pdfBtn">Скачать PDF</button>
+
+    <div id="presskit">
+
+        <!-- СТРАНИЦА 1: ОБЛОЖКА -->
+        <section class="page cover">
+           <h1>Alex Drevel - guitar project</h1>
+            <div class="cover-photo"></div>
+            <div class="cover-content">
+                <div>
+                    <div class="cover-title">
+                        Alex<br>Drevel
+                        <span>Instrumental Cinematic Rock</span>
+                    </div>
+                </div>
+                <div class="cover-sub">
+                    «Саундтреки для путешествий<br>внутрь себя и дальше»
+                </div>
+                <div class="cover-meta">
+                    <span>Moscow</span>
+                    <span class="dot">◆</span>
+                    <span>Russia</span>
+                    <span class="dot">◆</span>
+                    <span>2026</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 2-3: О ПРОЕКТЕ -->
+        <section class="page">
+            <div class="section-label">01 / About</div>
+            <h2 class="section-title">О группе</h2>
+            <div class="section-divider"></div>
+
+            <div class="about-layout">
+                <div class="about-photo">
+                    <img src="img/about.webp" alt="Alex Drevel live performance" class="about-img" loading="lazy">
+                </div>
+                <div>
+                    <p class="lead">Музыка для дальних горизонтов и глубоких размышлений.</p>
+                    <p class="body-text">Alex Drevel — инструментальный гитарный проект, объединяющий атмосферу cinematic rock, энергию progressive metal, глубину эмбиента и отголоски северного фолка.</p>
+                </div>
+            </div>
+
+            <div class="full-text">
+                <p class="body-text">В центре проекта — гитара как главный инструмент повествования. Каждая композиция развивается как самостоятельная история. Одни произведения строятся на энергии тяжёлых риффов, другие погружают в атмосферные эмбиентные пространства, а мелодии становятся проводником между внутренними переживаниями и образами окружающего мира.</p>
+                <p class="body-text">Музыка Alex Drevel вдохновлена северной природой, путешествиями, кинематографом и эстетикой современных инструментальных жанров. Это сочетание эмоциональной выразительности, продуманной композиции и атмосферного звучания, где техническое мастерство служит не самоцелью, а средством создания цельного художественного высказывания.</p>
+                <p class="body-text">Живые выступления проекта строятся вокруг полного погружения в настроение и пространство музыки. Каждое выступление сопровождается авторским видеорядом, который раскрывает истории и атмосферу музыкальных произведений, превращая концерт в цельное аудиовизуальное путешествие.</p>
+                <p class="body-text">Вместо вокала главную роль здесь играет гитара, рассказывающая истории без слов и создающая эффект саундтрека к личным воспоминаниям, дорогам и внутренним открытиям.</p>
+                <p class="body-text">Alex Drevel — это инструментальная музыка для тех, кто ценит глубину, атмосферу и искренние эмоции, воплощённые в современном гитарном звучании.</p>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 4: МУЗЫКА -->
+        <section class="page">
+            <div class="section-label">02 / Music</div>
+            <h2 class="section-title">Музыка</h2>
+            <div class="section-divider"></div>
+
+            <p class="lead">Основные релизы проекта.</p>
+
+            <div class="albums">
+                <a href="https://music.yandex.ru/album/23341195" class="album" target="_blank">
+                    <div class="album">
+                        <img src="img/tlom.webp" alt="The Light of Mine" class="album-img" loading="lazy">
+                        <div class="album-info">
+                            <div class="album-title">The Light of Mine</div>
+                            <div class="album-label">Studio Album</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://music.yandex.ru/album/37716261" class="album" target="_blank">
+                    <div class="album">
+                        <img src="img/red_square.webp" alt="Red Square" class="album-img" loading="lazy">
+                        <div class="album-info">
+                            <div class="album-title">Red Square</div>
+                            <div class="album-label">Studio Album</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://music.yandex.ru/album/38034272" class="album" target="_blank">
+                    <div class="album">
+                        <img src="img/king_of_hearts.webp" alt="King of Hearts" class="album-img" loading="lazy">
+                        <div class="album-info">
+                            <div class="album-title">King of Hearts</div>
+                            <div class="album-label">Studio Album</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="streaming">
+                <div class="section-label">Слушать</div>
+                <div class="stream-list">
+                    <a href="https://vk.com/artist/6606373347487160853" class="stream-item" target="_blank">
+                        <div class="stream-icon">VK</div>
+                        <div>
+                            <div class="stream-name">VK Music</div>
+                            <div class="stream-url">vk.com/artist/alexdrevel</div>
+                        </div>
+                    </a>
+                    <a href="https://music.yandex.ru/artist/17321283" class="stream-item" target="_blank">
+                        <div class="stream-icon">Я</div>
+                        <div>
+                            <div class="stream-name">Яндекс Музыка</div>
+                            <div class="stream-url">music.yandex.ru/artist/17321283</div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/@alexdrevelmusic" class="stream-item" target="_blank">
+                        <div class="stream-icon">YT</div>
+                        <div>
+                            <div class="stream-name">YouTube</div>
+                            <div class="stream-url">youtube.com/@alexdrevelmusic</div>
+                        </div>
+                    </a>
+                    <a href="https://open.spotify.com/artist/7rYbjqVRsONLcOzAxG4acW" class="stream-item" target="_blank">
+                        <div class="stream-icon">SP</div>
+                        <div>
+                            <div class="stream-name">Spotify</div>
+                            <div class="stream-url">open.spotify.com/artist/alexdrevel</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 5: LIVE -->
+        <section class="page live-bg">
+            <div class="section-label">03 / Live</div>
+            <h2 class="section-title">Концерты</h2>
+            <div class="section-divider"></div>
+
+            <div class="live-photo">
+                <img src="img/live.webp" alt="Alex Drevel concert" class="live-img" loading="lazy">
+            </div>
+
+            <p class="body-text">Каждое выступление Alex Drevel — это уникальное аудиовизуальное путешествие. Авторский видеоряд, созданный с использованием нейросетей и реальных съёмок, превращает концерт в иммерсивный опыт полного погружения.</p>
+
+            <a href="https://vk.com/alexdrevelclub?z=video-193563645_456239022" class="video-link" target="_blank">▶ Смотреть выступление</a>
+
+            <div class="section-label" style="margin-top:40px">Форматы выступлений</div>
+            <div class="formats">
+                <div class="format">
+                    <div class="format-time">30<small>min</small></div>
+                    <div class="format-label">Festival Set</div>
+                </div>
+                <div class="format">
+                    <div class="format-time">45<small>min</small></div>
+                    <div class="format-label">Club Format</div>
+                </div>
+                <div class="format">
+                    <div class="format-time">60<small>min</small></div>
+                    <div class="format-label">Full Concert</div>
+                </div>
+                <div class="format">
+                    <div class="format-time">90<small>min</small></div>
+                    <div class="format-label">Visual Show</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 6: ТЕХ. ИНФО -->
+        <section class="page">
+            <div class="section-label">04 / Tech</div>
+            <h2 class="section-title">Состав</h2>
+            <div class="section-divider"></div>
+
+            <div class="band">
+                <div class="member">
+                    <div class="member-avatar">
+                        <img src="img/guitarist.webp" alt="Александр Древель" class="avatar-img" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="member-role">Гитара</div>
+                        <div class="member-name">Александр</div>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="member-avatar">
+                        <img src="img/keyboardist.webp" alt="Валерия" class="avatar-img" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="member-role">Клавишные</div>
+                        <div class="member-name">Валерия</div>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="member-avatar">
+                        <img src="img/bassist.webp" alt="Сергей" class="avatar-img" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="member-role">Бас</div>
+                        <div class="member-name">Сергей</div>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="member-avatar">
+                        <img src="img/drummer.webp" alt="Игорь" class="avatar-img" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="member-role">Ударные / Перкуссия</div>
+                        <div class="member-name">Игорь</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-label" style="margin-top:40px">Технические параметры</div>
+            <div class="specs">
+                <div class="spec">
+                    <div class="spec-label">Формат</div>
+                    <div class="spec-value">Живой состав</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Сет</div>
+                    <div class="spec-value">30 / 45 / 60 / 90 мин</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">География</div>
+                    <div class="spec-value">Россия<br>СНГ<br>Европа<br>Китай</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 7: КОНТАКТЫ -->
+        <section class="page">
+            <div class="section-label">05 / Contacts</div>
+            <h2 class="section-title">Контакты</h2>
+            <div class="section-divider"></div>
+
+            <div class="contacts-grid">
+                <div class="contact-block">
+                    <h3>Менеджмент</h3>
+                    <a href="tel:+79647614102" class="contact-item">
+                        <span class="contact-label">Менеджер</span>
+                        <span class="contact-value">Александр</span>
+                    </a>
+                    <a href="tel:+79647614102" class="contact-item">
+                        <span class="contact-label">Телефон</span>
+                        <span class="contact-value">+7 (964) 761-41-02</span>
+                    </a>
+                    <a href="mailto:alexdrevel@gmail.com" class="contact-item">
+                        <span class="contact-label">E-mail</span>
+                        <span class="contact-value">alexdrevel@gmail.com</span>
+                    </a>
+                    <a href="https://vk.com/alexdrevelmusic" class="contact-item" target="_blank">
+                        <span class="contact-label">VK</span>
+                        <span class="contact-value">vk.com/alexdrevelmusic</span>
+                    </a>
+                    <a href="https://t.me/alexdrevel" class="contact-item" target="_blank">
+                        <span class="contact-label">Telegram</span>
+                        <span class="contact-value">@alexdrevel</span>
+                    </a>
+                </div>
+
+                <div class="contact-block">
+                    <h3>Материалы</h3>
+                    <a href="https://cloud.mail.ru/public/NmRh/XBZExQzPf" class="contact-item" target="_blank">
+                        <span class="contact-label">Промо-фото</span>
+                        <span class="contact-value">cloud.mail.ru/public/NmRh...</span>
+                    </a>
+                    <a href="https://cloud.mail.ru/public/5g8X/7SUJfhjtg" class="contact-item" target="_blank">
+                        <span class="contact-label">Логотипы</span>
+                        <span class="contact-value">cloud.mail.ru/public/5g8X...</span>
+                    </a>
+                    <a href="https://cloud.mail.ru/public/UHaB/XsQ1fwnuH" class="contact-item" target="_blank">
+                        <span class="contact-label">Технический райдер</span>
+                        <span class="contact-value">cloud.mail.ru/public/UHaB...</span>
+                    </a>
+                    <a href="https://cloud.mail.ru/public/ASoQ/3KepM2WJc" class="contact-item" target="_blank">
+                        <span class="contact-label">Бытовой райдер</span>
+                        <span class="contact-value">cloud.mail.ru/public/ASoQ...</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- СТРАНИЦА 8: ЗАДНЯЯ ОБЛОЖКА -->
+        <section class="page back">
+           <h2 class="page-back">Задняя обложка</h2>
+            <div class="back-logo"><span>AD</span></div>
+            <div class="back-title">ALEX DREVEL</div>
+            <div class="back-sub">Instrumental Cinematic Rock &amp; Ambient</div>
+            <div class="back-footer">© 2026 ALEX DREVEL · MOSCOW · RUSSIA</div>
+        </section>
+
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
